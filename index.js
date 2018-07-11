@@ -26,6 +26,12 @@ var funkyFunction = function(){
   }
 }
 
+var funkyFunction = function() {
+      return function(){
+      return "FUNKY!"
+      }
+}
+
 
 
 
