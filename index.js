@@ -28,12 +28,10 @@ var funkyFunction = function(){
 
 var theFunk = funkyFunction();{
    'is "FUNKY!"'() {
-     
- describe('theFunk', function() {
-    it('is "FUNKY!"', function() {
-      expect(window.theFunk).toEqual('FUNKY!')
-    })
-  })     
+     theFunk = 'FUNKY!'
+   }
+}
+
 
 
  
